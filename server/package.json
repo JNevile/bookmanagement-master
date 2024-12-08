@@ -1,0 +1,18 @@
+{
+  "name": "bmbackend",
+  "version": "1.0.0",
+  "description": "Simple backend for BM",
+  "main": "App.jsx",
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build"
+  },
+  "author": "Aurora",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
